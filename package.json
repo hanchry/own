@@ -1,0 +1,24 @@
+{
+  "name": "own",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -m -i src/style.css -o public/styles.css",
+    "dev:css": "tailwindcss -w -i src/style.css -o public/styles.css",
+    "start": "parcel views/home.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.43",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "autoprefix": "^1.0.1",
+    "autoprefixer": "^10.4.7",
+    "concurrently": "^7.2.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^2.1.4"
+  }
+}

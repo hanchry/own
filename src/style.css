@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-neutral-900{
+    background: #171717;
+}
+.bg-neutral-800{
+    background: #262626;
+}
