@@ -1,10 +1,10 @@
-let ghpages = require('gh-pages');
+var ghpages = require('gh-pages');
 
-let PortfolioSettings = {
-    dest: 'Home',
-    branch: 'master'
-};
-
-ghpages.publish('Portfolio', PortfolioSettings, () => {
-    console.log("Portfolio deployed")
-})
+ghpages.publish('', function(err) {});
+// ghpages.publish('dist',
+//     {
+//     branch: 'gh-pages'
+//     },
+//     () => {
+//     console.log("Analgyph deployed")
+// });
