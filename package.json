@@ -6,7 +6,7 @@
   "scripts": {
     "build:css": "tailwindcss -m -i src/style.css -o public/styles.css",
     "dev:css": "tailwindcss -w -i src/style.css -o public/styles.css",
-    "start": "parcel views/home.html"
+    "start": "parcel views/index.html"
   },
   "author": "",
   "license": "ISC",
