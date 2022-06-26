@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "tailwindcss -m -i src/style.css -o public/styles.css",
-    "build": "parcel build index.html --public-url ./",
     "dev:css": "tailwindcss -w -i src/style.css -o public/styles.css",
-    "deploy": "node deploy.js",
     "start": "parcel index.html"
   },
   "author": "",
