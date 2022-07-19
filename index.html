@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>AndrejJurco</title>
     <link rel="stylesheet" href="public/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -11,15 +11,18 @@
 
 <div class="flex sm:flex-col lg:flex-row">
 
-    <div class="sm:visible lg:invisible flex justify-end sm:w-full lg:w-0 lg:h-0 text-7xl">
-            <a class="text-purple-600 fa fa-bars mr-10 mt-10"
-               href=""></a>
+    <div id="menuBar" class="sm:visible lg:invisible flex justify-end sm:w-full lg:w-0 lg:h-0 text-7xl">
+        <a class="absolute text-purple-600 fa fa-bars mr-10 mt-10"></a>
     </div>
 
-    <header class="lg:w-24 sm:h-0 sm:w-full lg:h-screen shadow-md bg-neutral-900  lg:visible sm:invisible">
+    <div id="menuCross" class="invisible h-50 flex justify-end text-7xl">
+        <a class=" absolute text-purple-600 fa fa-times mr-10 mt-10"></a>
+    </div>
+
+    <header id="menu" class="lg:w-24 sm:h-0 sm:w-full lg:h-screen shadow-md bg-neutral-900  lg:block sm:hidden">
 
         <di class="text-center lg:h-20 sm:h-auto bg-black sm:grid sm:place-items-center sm:text-5xl lg:text-sm">
-            <img class="sm:h-96 lg:h-28" src="./img/logo.gif" alt="logo"  href="#">
+            <img class="sm:h-96 lg:h-28" src="./img/logo.gif" alt="logo" href="#">
             <p class="bg-black font-bold text-l lg:pb-2 text-purple-600 sm:pb-20 lg:w-24 ">Andrej Jurco </p>
         </di>
 
@@ -59,7 +62,7 @@
     </header>
 
 
-    <div class="w-full h-full">
+    <div id="content" class="w-full h-full">
         <section class="lg:ml-14 xl:ml-32 mt-44">
             <div class=" font-bold  text-white flex sm:justify-center lg:justify-between">
                 <h1 id="aboutHeader">

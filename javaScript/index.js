@@ -8,7 +8,6 @@ let textDelay = 5
 let pictureDelay = 5
 
 
-
 function getLetter(message, i, delay) {
     return new Promise(resolve => {
         setTimeout(() => {
@@ -27,7 +26,7 @@ function getOpacity(i, delay) {
 
 async function animatePicture() {
     for (let i = 0; i <= text.length; i++) {
-        const x = await getOpacity(i, pictureDelay );
+        const x = await getOpacity(i, pictureDelay);
         document.getElementById("profilePicture").style.opacity = x / text.length
     }
 }
@@ -69,6 +68,34 @@ async function animation() {
         writeText()
         animatePicture()
     }, 500)
+
 }
 
+async function openMenu() {
+
+    document.getElementById("content").style.display = "none"
+    document.getElementById("menuBar").style.visibility = "hidden"
+    document.getElementById("menu").style.display = "block"
+    document.getElementById("menuCross").style.visibility = "visible"
+}
+
+async function closeMenu() {
+
+    document.getElementById("menu").style.display = "none"
+    document.getElementById("menuCross").style.visibility = "hidden"
+    document.getElementById("content").style.display = "block"
+    document.getElementById("menuBar").style.visibility = "visible"
+
+}
+
+function buttons() {
+    document.getElementById("menuBar").addEventListener("click", () => {
+        openMenu()
+    })
+    document.getElementById("menuCross").addEventListener("click", () => {
+        closeMenu()
+    })
+}
+
+buttons()
 animation()

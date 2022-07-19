@@ -13,6 +13,7 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "laravel-mix": "^6.0.43",
+    "parcel": "^2.6.2",
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
