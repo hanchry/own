@@ -1,6 +1,6 @@
-import Animation from "./objects/Animation";
-import Navigation from "./objects/Navigation";
-import Tiping from "./objects/Tiping";
+import Animation from "./Animation";
+import Navigation from "./Navigation";
+import Tiping from "./Tiping";
 
 
 let header1 = ["H", "e", "l"];
