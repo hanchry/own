@@ -1,4 +1,3 @@
-
 export default class Navigation {
     constructor() {
         document.getElementById("menuBar").addEventListener("click", () => {

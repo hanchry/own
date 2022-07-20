@@ -1,4 +1,3 @@
-
 export default class Animation {
 
     animateDropIn(elementId, isImage) {
