@@ -5,7 +5,6 @@ export default class Tiping {
     async writeHeader(elementId, header, delay) {
         for (let i = 1; i < header.length + 1; i++) {
             const x = await this.getLetter(header, i - 1, Math.pow(i + delay, 2));
-            console.log(elementId)
             document.getElementById(elementId + [i]).innerHTML += x
         }
     }
