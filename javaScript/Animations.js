@@ -1,4 +1,4 @@
-export default class Animation {
+class Animations {
     constructor() {
     }
 

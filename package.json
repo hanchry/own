@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build:css": "tailwindcss -m -i src/style.css -o public/styles.css",
     "dev:css": "tailwindcss -w -i src/style.css -o public/styles.css",

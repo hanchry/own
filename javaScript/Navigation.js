@@ -1,4 +1,4 @@
-export default class Navigation {
+class Navigation {
     constructor() {
         document.getElementById("menuBar").addEventListener("click", () => {
             this.openMenu()
