@@ -1,4 +1,6 @@
 export default class Animation {
+    constructor() {
+    }
 
     animateDropIn(elementId, isImage) {
         if (!isImage) {

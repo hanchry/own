@@ -1,4 +1,6 @@
 export default class Tiping {
+    constructor() {
+    }
 
     async writeHeader(elementId, header, delay) {
         for (let i = 1; i < header.length + 1; i++) {
