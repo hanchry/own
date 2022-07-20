@@ -25,9 +25,13 @@ function getOpacity(i, delay) {
 }
 
 async function animatePicture() {
-    for (let i = 0; i <= text.length; i++) {
-        const x = await getOpacity(i, pictureDelay);
-        document.getElementById("profilePicture").style.opacity = x / text.length
+    if(window.screen.width > 1024) {
+        document.getElementById('profilePicture').style.animation = "dropInMedium 1s ease forwards"
+        document.getElementById("profilePicture").style.opacity = "1"
+    }
+    else {
+        document.getElementById('profilePicture').style.animation = "dropInSmall 1s ease forwards"
+        document.getElementById("profilePicture").style.opacity = "1"
     }
 }
 
@@ -53,9 +57,13 @@ async function deleteHeader1() {
 }
 
 async function writeText() {
-    for (let i = 1; i < text.length + 1; i++) {
-        const x = await getLetter(text, i - 1, textDelay);
-        document.getElementById("text").innerHTML += x
+    if(window.screen.width > 1024) {
+        document.getElementById('text').style.animation = "dropInMedium 1s ease forwards"
+        document.getElementById("text").style.visibility = "visible"
+    }
+    else {
+        document.getElementById('text').style.animation = "dropInSmall 1s ease forwards"
+        document.getElementById("text").style.visibility = "visible"
     }
 }
 
@@ -66,7 +74,9 @@ async function animation() {
     await writeHeader2()
     setTimeout(() => {
         writeText()
-        animatePicture()
+        setTimeout(() => {
+            animatePicture()
+        }, 200)
     }, 500)
 
 }

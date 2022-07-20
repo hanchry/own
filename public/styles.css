@@ -32245,6 +32245,46 @@ video {
   content: none;
 }
 
+@-webkit-keyframes dropInSmall {
+  from {
+    transform: translateY(200%)
+  }
+
+  to {
+    transform: translateY(0px)
+  }
+}
+
+@keyframes dropInSmall {
+  from {
+    transform: translateY(200%)
+  }
+
+  to {
+    transform: translateY(0px)
+  }
+}
+
+@-webkit-keyframes dropInMedium {
+  from {
+    transform: translateY(600px)
+  }
+
+  to {
+    transform: translateY(0px)
+  }
+}
+
+@keyframes dropInMedium {
+  from {
+    transform: translateY(600px)
+  }
+
+  to {
+    transform: translateY(0px)
+  }
+}
+
 .bg-neutral-900{
   background: #171717;
 }
