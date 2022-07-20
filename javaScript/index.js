@@ -1,4 +1,3 @@
-console.log(1)
 import Animation from "./objects/Animation";
 import Navigation from "./objects/Navigation";
 import Tiping from "./objects/Tiping";
