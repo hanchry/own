@@ -11,47 +11,58 @@
 <div class="flex ">
 
 
-    <div class="w-24 h-full sm:max-h-full shadow-md bg-neutral-900 sm:invisible lg:visible h-screen">
+    <div id="menuBar" class="sm:visible lg:invisible flex justify-end sm:w-full lg:w-0 lg:h-0 text-7xl">
+        <a class="absolute text-purple-600 fa fa-bars mr-10 mt-10"></a>
+    </div>
 
-        <di class="text-white text-center h-20">
-            <img src="./img/logo.gif" alt="logo" width="100%" href="#">
-            <p class="bg-black font-bold text-l pb-2 text-purple-600">Andrej Jurco </p>
+    <div id="menuCross" class="invisible h-50 flex justify-end text-7xl">
+        <a class=" absolute text-purple-600 fa fa-times mr-10 mt-10"></a>
+    </div>
+
+    <header id="menu" class="lg:w-24 sm:h-0 sm:w-full lg:h-screen shadow-md bg-neutral-900  lg:block sm:hidden">
+
+        <di class="text-center lg:h-20 sm:h-auto bg-black sm:grid sm:place-items-center sm:text-5xl lg:text-sm">
+            <img class="sm:h-96 lg:h-28" src="./img/logo.gif" alt="logo" href="#">
+            <p class="bg-black font-bold text-l lg:pb-2 text-purple-600 sm:pb-20 lg:w-24 ">Andrej Jurco </p>
         </di>
 
 
-        <ul class=" text-gray-600 ml- mt-20 text-center w-full place-items-start text-2xl">
+        <ul class=" text-gray-600 lg:mt-40 sm:mt-60 text-center w-full place-items-start lg:text-2xl sm:text-6xl">
             <li class="relative ">
-                <a class="w-full flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-user"
+                <a class="sm:border-t-2 lg:border-0 border-gray-700 w-full flex items-center text-sm lg:py-4 sm:py-10 px-6 lg:h-12  sm:h-auto overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-user"
                    href="./index.html"></a>
             </li>
             <li class="relative ">
-                <a class="w-full flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-bar-chart"
+                <a class="sm:border-t-2 lg:border-0 border-gray-700 w-full flex items-center text-sm lg:py-4 sm:py-10 px-6 lg:h-12 sm:h-auto overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-bar-chart"
                    href="./skills.html"></a>
             </li>
             <li class="relative ">
-                <a class="w-full flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-eye"
+                <a class="sm:border-t-2 sm:border-b-2 lg:border-0 border-gray-700 w-full flex items-center text-sm lg:py-4 sm:py-10 lg:h-12 sm:h-auto overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-eye"
                    href="./work.html"></a>
             </li>
         </ul>
 
 
-        <div class="absolute w-20 bottom-5 text-xl text-gray-600 text-center ">
-            <ul class=" relative py-2">
-                <li class="relative py-1">
+        <div class="absolute lg:w-20 sm:w-full  bottom-5 lg:text-xl sm:text-5xl text-gray-600 text-center flex justify-center sm:flex-col">
+            <ul class="lg:px-0 sm:px-96 flex sm:flex-row lg:flex-col sm:justify-between py-2">
+                <li class=" py-1">
                     <a class="text-sm  overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-github"
                        href="https://github.com/hanchry"></a>
                 </li>
-                <li class="relative py-1">
+                <li class=" py-1">
                     <a class="  text-sm  overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-linkedin"
                        href="https://www.linkedin.com/in/andrej-jurco-6818ab1b4/"></a>
                 </li>
-                <li class="relative py-1">
+                <li class=" py-1">
                     <a class="  text-sm  overflow-hidden text-ellipsis whitespace-nowrap rounded hover:text-purple-600 duration-300 ease-in-out fa fa-youtube"
                        href="https://www.youtube.com/channel/UCiDbvFOkT0LKdN2f3pb04_A"></a>
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
+
+
+
 
 
     <div class="w-full h-full">
@@ -59,45 +70,19 @@
             <div class="flex font-bold  text-white ">
                 <h1 class="float-left">
                     <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "
-                          aria-hidden="true" style="opacity: 1;">S</span>
+                          aria-hidden="true" style="opacity: 1;"></span>
                     <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl"
-                          aria-hidden="true" style="opacity: 1;">k</span>
+                          aria-hidden="true" style="opacity: 1;"></span>
                     <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl"
-                          aria-hidden="true" style="opacity: 1;">i</span>
+                          aria-hidden="true" style="opacity: 1;"></span>
                     <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl"
-                          aria-hidden="true" style="opacity: 1;">l</span>
+                          aria-hidden="true" style="opacity: 1;"></span>
                     <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl"
-                          aria-hidden="true" style="opacity: 1;">l</span>
+                          aria-hidden="true" style="opacity: 1;"></span>
                     <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl"
-                          aria-hidden="true" style="opacity: 1;">s</span>
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">&nbsp &</span>-->
-<!--                    <br>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">E</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">x</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">p</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">e</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">r</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">i</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">e</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">n</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">c</span>-->
-<!--                    <span class=" inline-block transform hover:scale-125 hover:text-purple-600 ease-in-out duration-500 text-8xl "-->
-<!--                          aria-hidden="true" style="opacity: 1;">e</span>-->
+                          aria-hidden="true" style="opacity: 1;"></span>
                 </h1>
 
-                <di class="float-left w-">
-                    <p class="text-white float-left">asd</p>
-                </di>
 
             </div>
             <di class="">
