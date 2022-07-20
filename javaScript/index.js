@@ -81,6 +81,8 @@ async function animation() {
 
 }
 
+
+
 async function openMenu() {
 
     document.getElementById("content").style.display = "none"
