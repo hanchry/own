@@ -1,11 +1,11 @@
-import Animation from "./objects/Animation";
-import Navigation from "./objects/Navigation";
-import Tiping from "./objects/Tiping";
+// import Animation from "./objects/Animation";
+// import Navigation from "./objects/Navigation";
+// import Tiping from "./objects/Tiping";
 
-//
-// let header1 = ["H", "e", "l"];
-// let header2 = ["H", "i", ",", "I", "'", "m", "&nbsp", "A", "n", "d", "r", "e", "j"];
-//
+
+let header1 = ["H", "e", "l"];
+let header2 = ["H", "i", ",", "I", "'", "m", "&nbsp", "A", "n", "d", "r", "e", "j"];
+
 // let animation = new Animation();
 // let navigation = new Navigation();
 // let tiping = new Tiping();
