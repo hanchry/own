@@ -9,11 +9,11 @@ let animation = new Animations();
 async function animate(){
     await tiping.writeHeader("aboutHeader", header1, 5);
     setTimeout(() => {
-        animation.animateDropIn("text",false)
+        animation.animateDropIn("skillsText",false)
         setTimeout(() => {
             animation.animateDropIn("cubeImage",true)
         },200)
-    },500)
+    },300)
 
 }
 
