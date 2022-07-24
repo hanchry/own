@@ -32246,12 +32246,12 @@ video {
 }
 
 :root{
-  --deft:100px;
+  --deft:150px;
 }
 
 .cube-box{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: auto;
   transform-style:preserve-3d;
 }
@@ -32296,7 +32296,7 @@ video {
 }
 
 .cube-box:hover{
-  --deft:200px;
+  --deft:250px;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }

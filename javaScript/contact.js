@@ -6,7 +6,7 @@ let navigation = new Navigation();
 let animation = new Animations();
 
 async function animate(){
-    await tiping.writeHeader("aboutHeader", header1, 5);
+    await tiping.writeHeader("aboutHeader", header1, 3);
     setTimeout(() => {
         animation.animateDropIn("text",false)
         setTimeout(() => {
