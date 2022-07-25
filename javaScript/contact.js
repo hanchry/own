@@ -21,23 +21,25 @@ async function animate(){
 
 
 function initMap(){
-    var cordinats = {
+    var coordinates = {
         lat: 55.86,
         lng: 9.84
     };
     var map = tt.map({
-        key: "S0rCKYQtfVi6fu2XXEXWk8ad4oYk7HBa",
+        key: "Rkc9Gi1KSDjUcDhHIPTLbew39ZpKUl9s",
         container: "map",
-        center: cordinats,
+        center: coordinates,
         zoom: 5,
         style: "./public/custom_map.json"
     });
     map.on('load', () => {
         new tt.Marker()
-            .setLngLat(cordinats)
+            .setLngLat(coordinates)
             .addTo(map);
     })
 }
+
+
 initMap()
 animate();
 

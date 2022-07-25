@@ -7,16 +7,16 @@
       "maxzoom": 22,
       "minzoom": 0,
       "tiles": [
-        "https://a.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=S0rCKYQtfVi6fu2XXEXWk8ad4oYk7HBa",
-        "https://b.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=S0rCKYQtfVi6fu2XXEXWk8ad4oYk7HBa",
-        "https://c.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=S0rCKYQtfVi6fu2XXEXWk8ad4oYk7HBa",
-        "https://d.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=S0rCKYQtfVi6fu2XXEXWk8ad4oYk7HBa"
+        "https://a.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=Rkc9Gi1KSDjUcDhHIPTLbew39ZpKUl9s",
+        "https://b.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=Rkc9Gi1KSDjUcDhHIPTLbew39ZpKUl9s",
+        "https://c.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=Rkc9Gi1KSDjUcDhHIPTLbew39ZpKUl9s",
+        "https://d.api.tomtom.com/map/2/tile/basic/{z}/{x}/{y}.pbf?key=Rkc9Gi1KSDjUcDhHIPTLbew39ZpKUl9s"
       ],
       "type": "vector"
     }
   },
-  "sprite": "https://api.tomtom.com/style/1/sprite/22.3.0-0/sprite?map=2%2Fbasic_street-light&key=S0rCKYQtfVi6fu2XXEXWk8ad4oYk7HBa",
-  "glyphs": "https://api.tomtom.com/style/1/glyph/22.3.0-0/{fontstack}/{range}.pbf?key=S0rCKYQtfVi6fu2XXEXWk8ad4oYk7HBa",
+  "sprite": "https://api.tomtom.com/style/1/sprite/22.3.0-0/sprite?map=2%2Fbasic_street-light&key=Rkc9Gi1KSDjUcDhHIPTLbew39ZpKUl9s",
+  "glyphs": "https://api.tomtom.com/style/1/glyph/22.3.0-0/{fontstack}/{range}.pbf?key=Rkc9Gi1KSDjUcDhHIPTLbew39ZpKUl9s",
   "layers": [
     {
       "id": "background",

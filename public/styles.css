@@ -32382,6 +32382,28 @@ video {
   border-color: #BDC6FF #59639A #59639A #BDC6FF;
 }
 
+/*.blur-sm {*/
+
+/*    filter: blur(4px);*/
+
+/*}*/
+
+.androidTag{
+  background: greenyellow;
+  padding: 3px;
+  border-radius: 5px;
+  color: #000;
+  margin-right: 5px;
+}
+
+.firebaseTag{
+  background: #ffae00;
+  padding: 3px;
+  border-radius: 5px;
+  color: #000;
+  margin-right: 5px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

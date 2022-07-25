@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -m -i src/style.css -o public/styles.css",
+    "build:css": "tailwindcss -o public/styles.css --minify",
     "dev:css": "tailwindcss -w -i src/style.css -o public/styles.css",
     "start": "parcel index.html"
   },
